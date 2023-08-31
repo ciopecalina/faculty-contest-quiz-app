@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "985460034673",
+    "firebase_url": "https://coolweather-zulnaar.firebaseio.com",
+    "project_id": "coolweather-zulnaar",
+    "storage_bucket": "coolweather-zulnaar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985460034673:android:37c8c3245377a631",
+        "android_client_info": {
+          "package_name": "com.example.stefan.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985460034673-0b2h3rnntlj2sv1c9g80tiui27o0qggp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm8FWsBgG4edumCftr9ywG-eVOGLAVphE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985460034673:android:8c21996790af1d53",
+        "android_client_info": {
+          "package_name": "ro.ase.acs.coolweatherskeleton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985460034673-0b2h3rnntlj2sv1c9g80tiui27o0qggp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm8FWsBgG4edumCftr9ywG-eVOGLAVphE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

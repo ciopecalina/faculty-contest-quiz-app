@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateQuiz">
+
+
+    <TextView
+
+        android:id="@+id/tvCreateTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/rubik"
+        android:text="@string/createQ"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="88dp"
+        android:fillViewport="false"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/tvQ1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:ems="10"
+                android:hint="Question 1"
+                android:inputType="textCapSentences"
+                android:text=""
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/tvQ1A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 1"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ1A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 2"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ1A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 3"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ1A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 4"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ1AC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Correct Answer"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:ems="10"
+                android:hint="Question 2"
+                android:inputType="textCapSentences"
+                android:text=""
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/tvQ2A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 1"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ2A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 2"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ2A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 3"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ2A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 4"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ2AC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Correct Answer"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:ems="10"
+                android:hint="Question 3"
+                android:inputType="textCapSentences"
+                android:text=""
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/tvQ3A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 1"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ3A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 2"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ3A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 3"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ3A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 4"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ3AC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Correct Answer"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:ems="10"
+                android:hint="Question 4"
+                android:inputType="textCapSentences"
+                android:text=""
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/tvQ4A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 1"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ4A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 2"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ4A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 3"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ4A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 4"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ4AC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Correct Answer"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:ems="10"
+                android:hint="Question 5"
+                android:inputType="textCapSentences"
+                android:text=""
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/tvQ5A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 1"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ5A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 2"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ5A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 3"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ5A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Answer 4"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/tvQ5AC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Correct Answer"
+                android:inputType="textCapSentences"
+                android:text="" />
+
+            <Button
+                android:id="@+id/buttonAddQuiz"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginEnd="100dp"
+                android:text="@string/donePass"
+                android:background="@drawable/buttonshape5"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/rubik_medium"
+                app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

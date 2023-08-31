@@ -1,5 +1,7 @@
 # FacultyContest2019-QuizApplication
 
+  Android mobile solution for making quizzes.
+  
   Being part of a team of five students, managed to build a quiz mobile app similar to
 Kahoot/Socrative for a contest organized by the faculty with the purpose of being used in
 the future by the faculty in students' evaluations.

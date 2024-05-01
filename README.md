@@ -1,4 +1,4 @@
-# FacultyContest2019-QuizApplication
+# FacultyContest-QuizApplication
 
   Android mobile solution for making quizzes.
   
